@@ -20,6 +20,16 @@
   (major1) == 4 && (major2) <  16 || \
   (major1) == 4 && (major2) == 16 && (minor) <= 4)
 #endif /* MIN_VERSION_base */
+/* package isocline-1.0.9 */
+#ifndef VERSION_isocline
+#define VERSION_isocline "1.0.9"
+#endif /* VERSION_isocline */
+#ifndef MIN_VERSION_isocline
+#define MIN_VERSION_isocline(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  0 || \
+  (major1) == 1 && (major2) == 0 && (minor) <= 9)
+#endif /* MIN_VERSION_isocline */
 /* package parsec-3.1.15.0 */
 #ifndef VERSION_parsec
 #define VERSION_parsec "3.1.15.0"

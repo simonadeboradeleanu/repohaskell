@@ -1,6 +1,7 @@
 module Parsing where
 
 import Exp
+import Lab2
 import Text.ParserCombinators.Parsec
 import Text.ParserCombinators.Parsec.Language
     ( haskellStyle, LanguageDef )
